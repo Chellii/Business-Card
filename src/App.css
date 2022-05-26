@@ -1,0 +1,24 @@
+body {
+  background-color: #061843;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.app-container {
+  min-width: 300px;
+  min-height: 800px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1d1e24;
+  color: white;
+  margin: 0;
+  border-radius: 0.5em;
+}

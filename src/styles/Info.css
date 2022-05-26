@@ -1,0 +1,64 @@
+.info-container {
+    width: 100%;
+}
+
+.pic-div {
+    height: 300px;
+    background-image: url("../images/chaimae.jpg");
+    background-size: cover;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.pic-div > img {
+    width: 15px;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-div > h1 {
+    margin-bottom: 0;
+    font-size: 1.8em;
+}
+
+.info-div > p {
+    margin-top: 0;
+    color: #F2BF9A;
+    font-size: 0.9em;
+}
+
+.email-linkedin-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1em;
+}
+
+.email-div, .linkedin-div {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2em;
+    width: 7em;
+    text-align: center;
+    border-radius: 0.3em;
+}
+
+.email-div > p, .linkedin-div > p {
+    margin: 0;
+}
+
+.email-div {
+    background-color: white;
+    color: #1A1B21;
+}
+
+.linkedin-div {
+    background-color: #5093E2;
+    color: white;
+}

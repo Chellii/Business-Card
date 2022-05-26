@@ -1,0 +1,18 @@
+.about-container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 2.5em;
+    text-align: justify;
+}
+
+.about-container > h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.about-container > p {
+    margin: 0;
+    font-size: 0.7em;
+    padding-top: 0.5em;
+    color: #CFCFCF;
+}
